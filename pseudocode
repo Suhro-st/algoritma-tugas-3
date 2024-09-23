@@ -1,0 +1,49 @@
+angka.py
+
+MULAI
+FUNGSI print_number_pattern(n)
+UNTUK i DARI n HINGGA 1 LANGKAH -1 LAKUKAN
+UNTUK j DARI 1 HINGGA i LAKUKAN
+CETAK j dengan spasi tanpa pindah baris
+SELESAI UNTUK
+CETAK baris baru // Pindah ke baris baru setelah setiap i
+SELESAI UNTUK
+SELESAI FUNGSI
+
+SET n = 7
+PANGGIL print_number_pattern(n)
+SELESAI
+
+bintang.py
+
+MULAI
+FUNGSI print_pattern(n)
+UNTUK i DARI 0 HINGGA n - 1 LAKUKAN
+CETAK spasi sebanyak (i * 2) // Mencetak spasi di awal baris
+CETAK "* " sebanyak (n - i) // Mencetak bintang
+SELESAI UNTUK
+SELESAI FUNGSI
+
+SET n = 8
+PANGGIL print_pattern(n)
+SELESAI
+
+bintangsegitiga.py
+
+MULAI
+SET n = 6
+
+UNTUK i DARI 1 HINGGA n LAKUKAN
+    CETAK spasi sebanyak (n - i)  // Mencetak spasi di awal baris
+
+    UNTUK j DARI 1 HINGGA i LAKUKAN
+        JIKA j == 1 MAKA
+            CETAK "*"
+        SELAIN ITU
+            CETAK " . *"
+        SELESAI JIKA
+    SELESAI UNTUK
+
+    CETAK baris baru   // Pindah ke baris baru setelah setiap i
+SELESAI UNTUK
+SELESAI
