@@ -1,4 +1,3 @@
-for i in range(7 ,0,-1):
-    for j in range(1, i + 1):
-        print(j, end=" ")
-    print() 
+ for i in range(0,7):
+      print(' ' * (2 * i) + '* ' * (7 - i))
+print_pattern() 
